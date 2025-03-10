@@ -2,328 +2,342 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omkar Sonawane - Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
-        .glass {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 15px;
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omkar Sonawane - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    /* Increased background opacity, border opacity, and blur for improved visibility */
+    .glass {
+      background: rgba(255, 255, 255, 0.2); /* from 0.1 to 0.2 */
+      border-radius: 15px;
+      backdrop-filter: blur(15px); /* increased blur for a sharper glass effect */
+      -webkit-backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.3); /* from 0.2 to 0.3 */
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* slightly darker shadow */
+    }
 
-        .hover-scale:hover {
-            transform: scale(1.05);
-            transition: transform 0.3s ease;
-        }
+    .hover-scale:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
 
-        .section-transition {
-            transition: all 0.5s ease;
-        }
+    .section-transition {
+      transition: all 0.5s ease;
+    }
 
-        .skill-card:hover .skill-icon {
-            transform: rotate(15deg) scale(1.2);
-        }
+    .skill-card:hover .skill-icon {
+      transform: rotate(15deg) scale(1.2);
+    }
 
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0px); }
-        }
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
 
-        .floating {
-            animation: float 3s ease-in-out infinite;
-        }
-    </style>
+    .floating {
+      animation: float 3s ease-in-out infinite;
+    }
+  </style>
 </head>
 
 <body class="bg-gradient-to-br from-[#0e46a3] to-[#1e90ff] text-white flex flex-col items-center justify-center min-h-screen relative overflow-x-hidden">
-
-    <!-- Main Container -->
-    <div class="w-full max-w-4xl p-6 glass text-center shadow-xl mx-4 hover:shadow-2xl transition-shadow duration-300">
-
-        <!-- Profile Section -->
-        <div class="flex flex-col items-center" data-aos="zoom-in">
-            <div class="floating">
-                <img src="https://github.com/Omkar-Sonawane-23/Omkar-Sonawane/blob/main/assets/img/img.jpeg?raw=true" alt="Profile" class="w-24 h-24 rounded-full border-4 border-[#9ac8cd] hover:border-[#ff6b6b] transition-colors duration-300">
-            </div>
-            <h1 class="text-4xl font-bold mt-4 bg-gradient-to-r from-[#9ac8cd] to-[#ff6b6b] bg-clip-text text-transparent">Omkar Sonawane</h1>
-            <p class="text-lg text-[#9ac8cd] mt-2 font-mono">Software Developer | Vulnerability Researcher</p>
-        </div>
-
-        <!-- Navigation Dock -->
-        <div class="flex flex-wrap justify-center gap-4 mt-8" data-aos="fade-up">
-            <button onclick="showSection('about')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">👨‍💻</span> About
-            </button>
-            <button onclick="showSection('skills')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">🚀</span> Skills
-            </button>
-            <button onclick="showSection('experience')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">💼</span> Experience
-            </button>
-            <button onclick="showSection('education')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">🎓</span> Education
-            </button>
-            <button onclick="showSection('certifications')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">🏆</span> Certifications
-            </button>
-            <button onclick="showSection('contact')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
-                <span class="text-xl">📧</span> Contact
-            </button>
-        </div>
-
-        <!-- Dynamic Content Sections -->
-        <div id="content" class="mt-8 text-left space-y-6 section-transition"></div>
+  <!-- Main Container -->
+  <div class="w-full max-w-4xl p-6 glass text-center shadow-xl mx-4 hover:shadow-2xl transition-shadow duration-300">
+    <!-- Profile Section -->
+    <div class="flex flex-col items-center" data-aos="zoom-in">
+      <div class="floating">
+        <img src="https://github.com/Omkar-Sonawane-23/Omkar-Sonawane/blob/main/assets/img/img.jpeg?raw=true" alt="Profile"
+          class="w-24 h-24 rounded-full border-4 border-[#9ac8cd] hover:border-[#ff6b6b] transition-colors duration-300">
+      </div>
+      <h1 class="text-4xl font-bold mt-4 bg-gradient-to-r from-[#9ac8cd] to-[#ff6b6b] bg-clip-text text-transparent">Omkar Sonawane</h1>
+      <p class="text-lg text-[#9ac8cd] mt-2 font-mono">Software Developer | Vulnerability Researcher</p>
     </div>
 
-    <!-- Floating Social Links -->
-    <div class="fixed bottom-8 flex gap-6" data-aos="fade-up" data-aos-delay="200">
-        <a href="mailto:sonawaneomkar2306@gmail.com" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/omkarsonawane23" target="_blank" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
-            </svg>
-        </a>
-        <a href="https://omkar-sonawane.vercel.app/" target="_blank" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-            </svg>
-        </a>
+    <!-- Navigation Dock -->
+    <div class="flex flex-wrap justify-center gap-4 mt-8" data-aos="fade-up">
+      <button onclick="showSection('about')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">👨‍💻</span> About
+      </button>
+      <button onclick="showSection('skills')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">🚀</span> Skills
+      </button>
+      <button onclick="showSection('experience')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">💼</span> Experience
+      </button>
+      <button onclick="showSection('education')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">🎓</span> Education
+      </button>
+      <button onclick="showSection('certifications')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">🏆</span> Certifications
+      </button>
+      <button onclick="showSection('contact')" class="nav-btn glass hover-scale px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#ffffff20] transition-all">
+        <span class="text-xl">📧</span> Contact
+      </button>
     </div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: false,
-            mirror: true
-        });
+    <!-- Dynamic Content Sections -->
+    <div id="content" class="mt-8 text-left space-y-6 section-transition"></div>
+  </div>
 
-        let currentSection = '';
-        function showSection(section) {
-            if(currentSection === section) return;
-            
-            const content = document.getElementById("content");
-            content.classList.add('opacity-0');
-            
-            setTimeout(() => {
-                content.innerHTML = sections[section];
-                content.classList.remove('opacity-0');
-                currentSection = section;
-                AOS.refresh();
-            }, 300);
+  <!-- Floating Social Links -->
+  <div class="fixed bottom-8 flex gap-6" data-aos="fade-up" data-aos-delay="200">
+    <a href="mailto:sonawaneomkar2306@gmail.com" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/omkarsonawane23" target="_blank" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    </a>
+    <a href="https://omkar-sonawane.vercel.app/" target="_blank" class="glass p-3 rounded-full hover-scale hover:bg-[#ffffff20] transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+      </svg>
+    </a>
+  </div>
 
-            // Update active button
-            document.querySelectorAll('.nav-btn').forEach(btn => 
-                btn.classList.remove('bg-[#ffffff30]', 'text-[#9ac8cd]'));
-            event.currentTarget.classList.add('bg-[#ffffff30]', 'text-[#9ac8cd]');
-        }
+  <!-- JavaScript Libraries -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true
+    });
 
-        // Enhanced Sections
-        const sections = {
-            "about": `<div data-aos="fade-right" class="p-6 glass">
-                        <h2 class="text-3xl font-bold mb-4 flex items-center gap-3">
-                            <span class="text-4xl">👋</span> About Me
-                        </h2>
-                        <p class="text-lg leading-relaxed">
-                            A passionate developer merging creativity with code. Specializing in full-stack development 
-                            and cybersecurity, I build secure and scalable solutions while hunting vulnerabilities.
-                            With expertise in the MERN stack and a background in IoT & cybersecurity, I'm committed to
-                            creating innovative solutions that are both functional and secure.
-                        </p>
-                     </div>`,
+    let currentSection = '';
+    function showSection(section) {
+      if (currentSection === section) return;
 
-            "skills": `<div data-aos="zoom-in" class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">🚀</div>
-                             <h3 class="font-bold">MERN Stack</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-3/4 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">🛡️</div>
-                             <h3 class="font-bold">Cybersecurity</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-4/5 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">🔍</div>
-                             <h3 class="font-bold">Vulnerability Research</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-4/5 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">🤖</div>
-                             <h3 class="font-bold">IoT</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-3/4 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">💼</div>
-                             <h3 class="font-bold">Professional Services</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-5/6 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                         <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
-                             <div class="skill-icon text-4xl mb-2 transition-transform">🚴</div>
-                             <h3 class="font-bold">Self-employment</h3>
-                             <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
-                                 <div class="bg-[#9ac8cd] w-5/6 h-full rounded-full"></div>
-                             </div>
-                         </div>
-                      </div>`,
+      const content = document.getElementById("content");
+      content.classList.add('opacity-0');
 
-            "experience": `<div data-aos="fade-up" class="space-y-6">
-                             <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
-                                 <div class="flex items-start gap-4">
-                                     <div class="text-3xl">💼</div>
-                                     <div>
-                                         <h3 class="text-xl font-bold">Software Developer</h3>
-                                         <h4 class="text-lg text-[#9ac8cd]">Quibits IT Solutions</h4>
-                                         <p class="text-sm text-[#9ac8cd]">July 2024 - March 2025 (9 months) | Remote</p>
-                                         <p class="mt-2">Developed enterprise solutions using modern tech stack. Worked on building 
-                                         secure and scalable applications while implementing best practices in software development.</p>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
-                                 <div class="flex items-start gap-4">
-                                     <div class="text-3xl">🔧</div>
-                                     <div>
-                                         <h3 class="text-xl font-bold">Professional Freelancer</h3>
-                                         <h4 class="text-lg text-[#9ac8cd]">Self-employed</h4>
-                                         <p class="text-sm text-[#9ac8cd]">March 2022 - Present (3 years 1 month)</p>
-                                         <p class="mt-2">Provided professional development services for various clients. 
-                                         Specialized in building web applications, vulnerability assessment, and cybersecurity 
-                                         solutions tailored to client needs.</p>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
-                                 <div class="flex items-start gap-4">
-                                     <div class="text-3xl">🧩</div>
-                                     <div>
-                                         <h3 class="text-xl font-bold">Technical Team Member</h3>
-                                         <h4 class="text-lg text-[#9ac8cd]">Ad Astra Official</h4>
-                                         <p class="text-sm text-[#9ac8cd]">February 2023 - December 2024 (1 year 11 months)</p>
-                                         <p class="mt-2">Contributed to technical projects and initiatives as part of the technical 
-                                         team. Collaborated on solutions and provided expertise in software development and 
-                                         cybersecurity domains.</p>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
-                                 <div class="flex items-start gap-4">
-                                     <div class="text-3xl">👨‍💻</div>
-                                     <div>
-                                         <h3 class="text-xl font-bold">Contributor</h3>
-                                         <h4 class="text-lg text-[#9ac8cd]">GirlScript Summer of Code</h4>
-                                         <p class="text-sm text-[#9ac8cd]">May 2023 - August 2023 (4 months)</p>
-                                         <p class="mt-2">Participated in open-source contributions during the GirlScript Summer of Code 
-                                         program. Collaborated with other developers to improve and enhance various open-source projects.</p>
-                                     </div>
-                                 </div>
-                             </div>
-                          </div>`,
-            "education": `<div data-aos="fade-up" class="space-y-6">
-                            <div class="glass p-6 rounded-xl border-l-4 border-[#ff6b6b]">
-                                <div class="flex items-start gap-4">
-                                    <div class="text-3xl">🎓</div>
-                                    <div>
-                                        <h3 class="text-xl font-bold">Bachelor of Engineering - BE</h3>
-                                        <h4 class="text-lg text-[#9ac8cd]">University of Mumbai</h4>
-                                        <p class="text-sm text-[#9ac8cd]">Computer Science & Engineering (IoT & Cyber Security) · 2022</p>
-                                        <p class="mt-2">Specialized in Internet of Things and Cybersecurity, gaining 
-                                        expertise in secure system design, vulnerability assessment, and network security.</p>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>`,
-            "certifications": `<div data-aos="fade-up" class="space-y-6">
-                                <div class="glass p-6 rounded-xl">
-                                    <h2 class="text-2xl font-bold mb-4">Professional Certifications</h2>
-                                    <ul class="list-disc pl-6 space-y-4">
-                                        <li>
-                                            <div>
-                                                <h3 class="text-lg font-bold">Introduction to Large Language Models</h3>
-                                                <p class="text-[#9ac8cd]">Demonstrating proficiency in understanding and working with LLMs</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h3 class="text-lg font-bold">Google IT Support Certificate</h3>
-                                                <p class="text-[#9ac8cd]">Comprehensive training in IT fundamentals and support</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h3 class="text-lg font-bold">Flipkart Grid 6.0</h3>
-                                                <p class="text-[#9ac8cd]">Recognition for participation in Flipkart's technology challenge</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div>
-                                                <h3 class="text-lg font-bold">Flipkart Grid 6.0 Software Development Track</h3>
-                                                <p class="text-[#9ac8cd]">Specialized certification in software development from Flipkart's program</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                             </div>`,
-            "contact": `<div data-aos="fade-up" class="space-y-6">
-                          <div class="glass p-6 rounded-xl">
-                              <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
-                                  <span class="text-4xl">📧</span> Get In Touch
-                              </h2>
-                              <div class="space-y-4">
-                                  <div class="flex items-center gap-3">
-                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                      </svg>
-                                      <a href="mailto:sonawaneomkar2306@gmail.com" class="hover:text-[#9ac8cd] transition-colors">sonawaneomkar2306@gmail.com</a>
-                                  </div>
-                                  <div class="flex items-center gap-3">
-                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                                          <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
-                                      </svg>
-                                      <a href="https://www.linkedin.com/in/omkarsonawane23" target="_blank" class="hover:text-[#9ac8cd] transition-colors">linkedin.com/in/omkarsonawane23</a>
-                                  </div>
-                                  <div class="flex items-center gap-3">
-                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                                      </svg>
-                                      <a href="https://omkar-sonawane.vercel.app/" target="_blank" class="hover:text-[#9ac8cd] transition-colors">omkar-sonawane.vercel.app</a>
-                                  </div>
-                                  <div class="flex items-center gap-3">
-                                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                      </svg>
-                                      <span>Navi Mumbai, Maharashtra, India</span>
-                                  </div>
-                              </div>
+      setTimeout(() => {
+        content.innerHTML = sections[section];
+        content.classList.remove('opacity-0');
+        currentSection = section;
+        AOS.refresh();
+      }, 300);
+
+      // Update active button
+      document.querySelectorAll('.nav-btn').forEach(btn =>
+        btn.classList.remove('bg-[#ffffff30]', 'text-[#9ac8cd]')
+      );
+      event.currentTarget.classList.add('bg-[#ffffff30]', 'text-[#9ac8cd]');
+    }
+
+    // Enhanced Sections
+    const sections = {
+      "about": `<div data-aos="fade-right" class="p-6 glass">
+                  <h2 class="text-3xl font-bold mb-4 flex items-center gap-3">
+                    <span class="text-4xl">👋</span> About Me
+                  </h2>
+                  <p class="text-lg leading-relaxed">
+                    A passionate developer merging creativity with code. Specializing in full-stack development 
+                    and cybersecurity, I build secure and scalable solutions while hunting vulnerabilities.
+                    With expertise in the MERN stack and a background in IoT & cybersecurity, I'm committed to
+                    creating innovative solutions that are both functional and secure.
+                  </p>
+                </div>`,
+      "skills": `<div data-aos="zoom-in" class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">🚀</div>
+                      <h3 class="font-bold">MERN Stack</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-3/4 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">🛡️</div>
+                      <h3 class="font-bold">Cybersecurity</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-4/5 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">🔍</div>
+                      <h3 class="font-bold">Vulnerability Research</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-4/5 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">🤖</div>
+                      <h3 class="font-bold">IoT</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-3/4 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">💼</div>
+                      <h3 class="font-bold">Professional Services</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-5/6 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                    <div class="skill-card glass p-4 rounded-xl flex flex-col items-center transition-all hover:bg-[#ffffff15]">
+                      <div class="skill-icon text-4xl mb-2 transition-transform">🚴</div>
+                      <h3 class="font-bold">Self-employment</h3>
+                      <div class="w-full bg-[#ffffff20] h-1 mt-2 rounded-full">
+                        <div class="bg-[#9ac8cd] w-5/6 h-full rounded-full"></div>
+                      </div>
+                    </div>
+                  </div>`,
+      "experience": `<div data-aos="fade-up" class="space-y-6">
+                      <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
+                        <div class="flex items-start gap-4">
+                          <div class="text-3xl">💼</div>
+                          <div>
+                            <h3 class="text-xl font-bold">Software Developer</h3>
+                            <h4 class="text-lg text-[#9ac8cd]">Quibits IT Solutions</h4>
+                            <p class="text-sm text-[#9ac8cd]">July 2024 - March 2025 (9 months) | Remote</p>
+                            <p class="mt-2">Developed enterprise solutions using modern tech stack. Worked on building 
+                            secure and scalable applications while implementing best practices in software development.</p>
                           </div>
-                        </div>`
-        };
+                        </div>
+                      </div>
+                      <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
+                        <div class="flex items-start gap-4">
+                          <div class="text-3xl">🔧</div>
+                          <div>
+                            <h3 class="text-xl font-bold">Professional Freelancer</h3>
+                            <h4 class="text-lg text-[#9ac8cd]">Self-employed</h4>
+                            <p class="text-sm text-[#9ac8cd]">March 2022 - Present (3 years 1 month)</p>
+                            <p class="mt-2">Provided professional development services for various clients. 
+                            Specialized in building web applications, vulnerability assessment, and cybersecurity 
+                            solutions tailored to client needs.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
+                        <div class="flex items-start gap-4">
+                          <div class="text-3xl">🧩</div>
+                          <div>
+                            <h3 class="text-xl font-bold">Technical Team Member</h3>
+                            <h4 class="text-lg text-[#9ac8cd]">Ad Astra Official</h4>
+                            <p class="text-sm text-[#9ac8cd]">February 2023 - December 2024 (1 year 11 months)</p>
+                            <p class="mt-2">Contributed to technical projects and initiatives as part of the technical 
+                            team. Collaborated on solutions and provided expertise in software development and 
+                            cybersecurity domains.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="glass p-6 rounded-xl border-l-4 border-[#9ac8cd]">
+                        <div class="flex items-start gap-4">
+                          <div class="text-3xl">👨‍💻</div>
+                          <div>
+                            <h3 class="text-xl font-bold">Contributor</h3>
+                            <h4 class="text-lg text-[#9ac8cd]">GirlScript Summer of Code</h4>
+                            <p class="text-sm text-[#9ac8cd]">May 2023 - August 2023 (4 months)</p>
+                            <p class="mt-2">Participated in open-source contributions during the GirlScript Summer of Code 
+                            program. Collaborated with other developers to improve and enhance various open-source projects.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>`,
+      "education": `<div data-aos="fade-up" class="space-y-6">
+                      <div class="glass p-6 rounded-xl border-l-4 border-[#ff6b6b]">
+                        <div class="flex items-start gap-4">
+                          <div class="text-3xl">🎓</div>
+                          <div>
+                            <h3 class="text-xl font-bold">Bachelor of Engineering - BE</h3>
+                            <h4 class="text-lg text-[#9ac8cd]">University of Mumbai</h4>
+                            <p class="text-sm text-[#9ac8cd]">Computer Science & Engineering (IoT & Cyber Security) · 2022</p>
+                            <p class="mt-2">Specialized in Internet of Things and Cybersecurity, gaining 
+                            expertise in secure system design, vulnerability assessment, and network security.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>`,
+      "certifications": `<div data-aos="fade-up" class="space-y-6">
+                      <div class="glass p-6 rounded-xl">
+                        <h2 class="text-2xl font-bold mb-4">Professional Certifications</h2>
+                        <ul class="list-disc pl-6 space-y-4">
+                          <li>
+                            <div>
+                              <h3 class="text-lg font-bold">Introduction to Large Language Models</h3>
+                              <p class="text-[#9ac8cd]">Demonstrating proficiency in understanding and working with LLMs</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h3 class="text-lg font-bold">Google IT Support Certificate</h3>
+                              <p class="text-[#9ac8cd]">Comprehensive training in IT fundamentals and support</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h3 class="text-lg font-bold">Flipkart Grid 6.0</h3>
+                              <p class="text-[#9ac8cd]">Recognition for participation in Flipkart's technology challenge</p>
+                            </div>
+                          </li>
+                          <li>
+                            <div>
+                              <h3 class="text-lg font-bold">Flipkart Grid 6.0 Software Development Track</h3>
+                              <p class="text-[#9ac8cd]">Specialized certification in software development from Flipkart's program</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>`,
+      "contact": `<div data-aos="fade-up" class="space-y-6">
+                      <div class="glass p-6 rounded-xl">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                          <span class="text-4xl">📧</span> Get In Touch
+                        </h2>
+                        <div class="space-y-4">
+                          <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <a href="mailto:sonawaneomkar2306@gmail.com" class="hover:text-[#9ac8cd] transition-colors">sonawaneomkar2306@gmail.com</a>
+                          </div>
+                          <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                              <path
+                                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                            </svg>
+                            <a href="https://www.linkedin.com/in/omkarsonawane23" target="_blank" class="hover:text-[#9ac8cd] transition-colors">linkedin.com/in/omkarsonawane23</a>
+                          </div>
+                          <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                            </svg>
+                            <a href="https://omkar-sonawane.vercel.app/" target="_blank" class="hover:text-[#9ac8cd] transition-colors">omkar-sonawane.vercel.app</a>
+                          </div>
+                          <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>Navi Mumbai, Maharashtra, India</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>`
+    };
 
-        // Initialize with About section
-        showSection('about');
-    </script>
+    // Initialize with About section
+    showSection('about');
+  </script>
 </body>
+
 </html>
