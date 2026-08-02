@@ -1,24 +1,169 @@
-## Hi there 👋
-<h2 align="left">
- <abc>
-  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/130058150/283726867-e590e659-a89e-4284-ab43-5c265248f38b.png"></img>
-  <img align="center" src="https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=F70000&center=true&vCenter=true&random=false&width=435&lines=Web+Developer;MERN+Stack+Developer;Java+Developer;Open+Source+Enthusiast"></img>
-  <img src="https://komarev.com/ghpvc/?username=Web403"></img>
- </abc>
-  <h2 align="left">👨🏻‍💻 About Me:</h2>
-<img align="right" src="https://github-production-user-asset-6210df.s3.amazonaws.com/130058150/283733756-9801bb02-ed86-4435-9e54-9a2f83f51bd7.gif" width="180"></img>
-<br> :computer: I'm a Software Developer</br>
-<br> :hourglass_flowing_sand: Exploring Various Technology</br>
-</h2> 
-<div id="badges" align = "center">
-<h2 align="left">:heart: My profiles:</h2>
+<div align="center">
 
-  <a href="https://www.linkedin.com/in/omkar-sonawane-0663a0257/">
-    <img src="https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://twitter.com/omkarsonawane23">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-  
-<h2 align="left">:hammer_and_wrench: Technologies and Tools I use:</h2>
-<p align="center"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+# OMKAR // SONAWANE
+
+### Software Engineer · Full-Stack Developer · Vulnerability Researcher
+
+<p>
+  <a href="https://omkar-sonawane.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-00F5D4?style=for-the-badge&logo=vercel&logoColor=050816" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/omkarsonawane23"><img src="https://img.shields.io/badge/LINKEDIN-00BBF9?style=for-the-badge&logo=linkedin&logoColor=050816" alt="LinkedIn" /></a>
+  <a href="mailto:sonawaneomkar2306@gmail.com"><img src="https://img.shields.io/badge/CONTACT-F15BB5?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" /></a>
+  <a href="https://devfolio.co/@omkarsonawane"><img src="https://img.shields.io/badge/DEVFOLIO-7C3AED?style=for-the-badge&logo=devfolio&logoColor=white" alt="Devfolio" /></a>
+</p>
+
+<img src="./assets/omkar-command-center.svg" alt="Animated cyberpunk engineering command center" width="100%" />
+
+<p>
+  <img src="https://img.shields.io/badge/STATUS-SYSTEM_ONLINE-00F5D4?style=flat-square&labelColor=050816" alt="System online" />
+  <img src="https://img.shields.io/badge/MODE-SHIP_IT-F15BB5?style=flat-square&labelColor=050816" alt="Ship it mode" />
+  <img src="https://img.shields.io/badge/BASE-NAVI_MUMBAI-00BBF9?style=flat-square&labelColor=050816" alt="Navi Mumbai" />
+</p>
+
+<code>build with intent · secure by design · share what you learn</code>
+
+<br />
+<br />
+
+<a href="#whoami">WHOAMI</a> ·
+<a href="#mission-control">MISSION CONTROL</a> ·
+<a href="#featured-builds">FEATURED BUILDS</a> ·
+<a href="#stack">STACK</a> ·
+<a href="#connect">CONNECT</a>
+
+</div>
+
+---
+
+## WHOAMI
+
+> I am a software engineer who likes turning complex ideas into useful, secure, and well-crafted products.
+
+- **Core:** full-stack web development, API design, developer tooling, and security-focused engineering.
+- **Curious about:** static analysis, real-time systems, IoT, cybersecurity, and open-source collaboration.
+- **Working style:** explore deeply, ship deliberately, document clearly, and keep learning in public.
+
+## MISSION CONTROL
+
+<img src="./assets/mission-control.svg" alt="Animated mission-control radar showing build, secure, open source, and learn" width="100%" />
+
+| Signal | Current transmission |
+| --- | --- |
+| **BUILDING** | [RouteMap](https://github.com/Omkar-Sonawane-23/routemap) — static analysis for Express request lifecycles |
+| **EXPLORING** | secure architecture, code quality, developer productivity, real-time collaboration |
+| **COLLABORATING** | open source, hackathons, ambitious technical experiments |
+
+## FEATURED BUILDS
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>◈ <a href="https://github.com/Omkar-Sonawane-23/routemap">RouteMap</a></h3>
+      <p>Understand an Express application in seconds. Resolves route → middleware → controller → service → repository → database lifecycles and generates documentation, OpenAPI, Postman collections, dependency graphs, and coverage reports.</p>
+      <sub><strong>TypeScript</strong> · JavaScript · Express · Static Analysis</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>◉ <a href="https://github.com/Omkar-Sonawane-23/realtime-code-editor">Codeglimpse+</a></h3>
+      <p>A real-time collaborative code editor with shared rooms, live chat, user presence, multi-language execution, file management, Monaco Editor, and a drawing board.</p>
+      <sub><strong>React</strong> · TypeScript · Node.js · Express · Socket.IO</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✦ <a href="https://github.com/Omkar-Sonawane-23/VedicVani">VedicVani</a></h3>
+      <p>Full-stack application for serving and exploring Bhagavad Gita content through a React frontend and Node.js backend.</p>
+      <sub><strong>React</strong> · Node.js · JavaScript · Python</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⌘ <a href="https://github.com/Omkar-Sonawane-23/Maa-Vimala">Maa-Vimala</a></h3>
+      <p>Keyboard-driven browser new-tab productivity tool with quick search, calculations, weather information, and useful shortcuts.</p>
+      <sub><strong>JavaScript</strong> · CSS · HTML</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>△ <a href="https://github.com/Omkar-Sonawane-23/Tourism">Bharat Yatra</a></h3>
+      <p>Tourism application showcasing destinations across India through a fast, modern web experience.</p>
+      <sub><strong>React</strong> · Vite · JavaScript · Tailwind CSS</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⌁ <a href="https://omkar-sonawane.vercel.app/">Portfolio</a></h3>
+      <p>Personal portfolio exploring software development, vulnerability research, IoT, cybersecurity, and ongoing experiments.</p>
+      <sub><strong>Web</strong> · Security · Open Source</sub>
+    </td>
+  </tr>
+</table>
+
+## STACK
+
+### Languages
+
+![Java](https://img.shields.io/badge/Java-050816?style=flat-square&logo=openjdk&logoColor=00F5D4)
+![JavaScript](https://img.shields.io/badge/JavaScript-050816?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-050816?style=flat-square&logo=typescript&logoColor=00BBF9)
+![Python](https://img.shields.io/badge/Python-050816?style=flat-square&logo=python&logoColor=FFD43B)
+![C](https://img.shields.io/badge/C-050816?style=flat-square&logo=c&logoColor=67E8F9)
+
+### Build Systems
+
+![React](https://img.shields.io/badge/React-050816?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-050816?style=flat-square&logo=vite&logoColor=FFD166)
+![Next.js](https://img.shields.io/badge/Next.js-050816?style=flat-square&logo=next.js&logoColor=FFFFFF)
+![Node.js](https://img.shields.io/badge/Node.js-050816?style=flat-square&logo=node.js&logoColor=7CFC00)
+![Express](https://img.shields.io/badge/Express-050816?style=flat-square&logo=express&logoColor=FFFFFF)
+![MongoDB](https://img.shields.io/badge/MongoDB-050816?style=flat-square&logo=mongodb&logoColor=47A248)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-050816?style=flat-square&logo=socket.io&logoColor=FFFFFF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-050816?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+### Infrastructure & Security
+
+![Git](https://img.shields.io/badge/Git-050816?style=flat-square&logo=git&logoColor=F05032)
+![Docker](https://img.shields.io/badge/Docker-050816?style=flat-square&logo=docker&logoColor=2496ED)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-050816?style=flat-square&logo=kubernetes&logoColor=326CE5)
+![Linux](https://img.shields.io/badge/Linux-050816?style=flat-square&logo=linux&logoColor=FFFFFF)
+![Postman](https://img.shields.io/badge/Postman-050816?style=flat-square&logo=postman&logoColor=FF6C37)
+
+`REST APIs` · `Vulnerability Assessment` · `Secure System Design` · `Cybersecurity` · `Developer Experience`
+
+## EXPERIENCE LOG
+
+| Role | Organization | Period |
+| --- | --- | --- |
+| **Software Developer** | Quibits IT Solutions | Jul 2024 – Mar 2025 |
+| **Professional Freelancer** | Self-employed | Mar 2022 – Present |
+| **Technical Team Member** | Ad Astra Official | Feb 2023 – Dec 2024 |
+| **Contributor** | GirlScript Summer of Code | May 2023 – Aug 2023 |
+
+## EDUCATION / CERTIFICATIONS
+
+- **Bachelor of Engineering (BE)** — Computer Science & Engineering (IoT & Cyber Security), University of Mumbai
+- Introduction to Large Language Models
+- Google IT Support Certificate
+- Flipkart GRiD 6.0
+- Flipkart GRiD 6.0 — Software Development Track
+
+## GITHUB SIGNAL
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Omkar-Sonawane-23&show_icons=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=00F5D4&icon_color=F15BB5&text_color=CBD5E1&rank_icon=github" height="170" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omkar-Sonawane-23&layout=compact&hide_border=true&theme=tokyonight&bg_color=050816&title_color=00F5D4&text_color=CBD5E1" height="170" alt="Most used languages" />
+
+</div>
+
+## CONNECT
+
+If you want to talk about software engineering, open source, cybersecurity, developer tools, or a strange idea worth building, reach out.
+
+<div align="center">
+
+<a href="https://omkar-sonawane.vercel.app/">PORTFOLIO</a> ·
+<a href="https://www.linkedin.com/in/omkarsonawane23">LINKEDIN</a> ·
+<a href="https://devfolio.co/@omkarsonawane">DEVFOLIO</a> ·
+<a href="mailto:sonawaneomkar2306@gmail.com">EMAIL</a>
+
+<br />
+<br />
+
+<sub>© Omkar Sonawane · keep building things that matter.</sub>
+
+</div>
