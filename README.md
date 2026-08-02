@@ -52,6 +52,43 @@
 | **EXPLORING** | secure architecture, code quality, developer productivity, real-time collaboration |
 | **COLLABORATING** | open source, hackathons, ambitious technical experiments |
 
+## REAL-WORLD SYSTEMS
+
+These are production-oriented systems I helped establish or built independently—not just demos.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>◈ <a href="https://restoqr.vercel.app/">RestoQR</a></h3>
+      <p><strong>Solo Founder · Backend / Full-Stack Developer</strong></p>
+      <p>Built from scratch for Indian restaurants: QR ordering, live kitchen display, counter POS, billing, table settlement, inventory, GST-ready invoicing, and reporting.</p>
+      <sub>Full-stack · REST APIs · real-time workflows · operations systems</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>◉ <a href="http://vrstranslink.com/">VRS Translink</a></h3>
+      <p><strong>Founding Member · Backend Developer</strong></p>
+      <p>Contributed to the overall establishment of an employee-transportation platform with backend workflows for organizations, drivers, vendors, live tracking, route generation, analytics, and SOS operations.</p>
+      <sub>MERN · backend systems · logistics · analytics</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✦ <a href="https://mendhospitality.in/">Mend Hospitality</a></h3>
+      <p><strong>Founding Member · Backend Developer</strong></p>
+      <p>Contributed to the overall establishment of a hospitality workforce platform connecting venues with verified professionals through identity, ratings, shift, and workforce workflows.</p>
+      <sub>MERN · platform backend · workforce systems</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⌁ <a href="http://quibits.vercel.app/">Quibits IT Solutions</a></h3>
+      <p><strong>Software Engineer</strong></p>
+      <p>Worked on client-facing software initiatives and contributed across development, implementation, and delivery of web, application, and digital solutions.</p>
+      <sub>Software engineering · web development · product delivery</sub>
+    </td>
+  </tr>
+</table>
+
+> **Pipeline:** More real-world systems are currently in development and will be launching soon.
+
 ## FEATURED BUILDS
 
 <table>
@@ -145,8 +182,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Omkar-Sonawane-23&show_icons=true&hide_border=true&theme=tokyonight&bg_color=050816&title_color=00F5D4&icon_color=F15BB5&text_color=CBD5E1&rank_icon=github" height="170" alt="GitHub statistics" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omkar-Sonawane-23&layout=compact&hide_border=true&theme=tokyonight&bg_color=050816&title_color=00F5D4&text_color=CBD5E1" height="170" alt="Most used languages" />
+  <img src="./assets/github-signal.svg" alt="Local GitHub activity dashboard" width="100%" />
 
 </div>
 
