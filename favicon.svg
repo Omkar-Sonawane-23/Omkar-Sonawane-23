@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#0B1020"/>
+  <path d="M32 8 L51 18 V32 C51 46 42 54 32 58 C22 54 13 46 13 32 V18 Z" fill="#0B1020" stroke="#7CE8DC" stroke-width="3"/>
+  <text x="14" y="41" fill="#F8FAFC" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700">O</text>
+  <text x="34" y="41" fill="#F8FAFC" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700">S</text>
+  <path d="M16 48 H48" stroke="#67E8F9" stroke-width="2" stroke-linecap="round"/>
+</svg>
