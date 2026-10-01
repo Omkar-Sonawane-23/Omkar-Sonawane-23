@@ -5,7 +5,7 @@
 ### Software Engineer · Full-Stack Developer · Vulnerability Researcher
 
 <p>
-  <a href="https://omkar-sonawane.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-00F5D4?style=for-the-badge&logo=vercel&logoColor=050816" alt="Portfolio" /></a>
+  <a href="https://omkar.quibits.in/"><img src="https://img.shields.io/badge/PORTFOLIO-00F5D4?style=for-the-badge&logo=vercel&logoColor=050816" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/omkarsonawane23"><img src="https://img.shields.io/badge/LINKEDIN-00BBF9?style=for-the-badge&logo=linkedin&logoColor=050816" alt="LinkedIn" /></a>
   <a href="mailto:sonawaneomkar2306@gmail.com"><img src="https://img.shields.io/badge/CONTACT-F15BB5?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" /></a>
   <a href="https://devfolio.co/@omkarsonawane"><img src="https://img.shields.io/badge/DEVFOLIO-7C3AED?style=for-the-badge&logo=devfolio&logoColor=white" alt="Devfolio" /></a>
