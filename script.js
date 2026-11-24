@@ -280,7 +280,7 @@ function openProject(id) {
   document.querySelector('#modalTags').innerHTML = project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('');
   const link = document.querySelector('#modalLink');
   link.href = project.url;
-  link.textContent = project.url.includes('npmjs.com') ? 'View on npm ↗' : project.url.includes('github.com') ? 'Open repository ↗' : 'Visit live ↗';
+  link.textContent = project.url.includes('npmjs.com') ? 'On npm ↗' : project.url.includes('github.com') ? 'Open repository ↗' : 'Visit live ↗';
   const repoLink = document.querySelector('#modalRepo');
   if (project.repo && project.repo !== project.url) {
     repoLink.href = project.repo;
