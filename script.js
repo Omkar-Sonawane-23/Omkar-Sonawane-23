@@ -174,12 +174,12 @@ const projects = [
     url: 'https://www.npmjs.com/package/@omkar-sonawane-05/routemap',
     repo: 'https://github.com/Omkar-Sonawane-23/routemap',
     description: 'A static-analysis compiler that helps developers understand Express applications in seconds.',
-    details: 'RouteMap resolves the request lifecycle across route, middleware, controller, service, repository, and database layers. It produces queryable metadata, documentation, OpenAPI, Postman collections, dependency graphs, and coverage reporting without runtime instrumentation. Published on npm as @omkar-sonawane-05/routemap.',
-    tags: ['TypeScript', 'Express', 'Static analysis', 'OpenAPI'],
+    details: 'RouteMap resolves the request lifecycle across route, middleware and handler layers into a queryable route model, without running your app. The CLI prints a route table, explains a single route (mount chain, middleware order, call graph), finds routes without recognized auth or validation, and outputs JSON. Paths it cannot resolve are reported, not guessed. Published on npm as @omkar-sonawane-05/routemap.',
+    tags: ['TypeScript', 'Express', 'Static analysis', 'CLI'],
     facts: [
       ['Role', 'Independent builder'],
       ['Package', '@omkar-sonawane-05/routemap'],
-      ['Output', 'Docs, OpenAPI, Postman, graphs, metadata'],
+      ['Output', 'Route table, explain, queries, JSON'],
     ],
   },
   {
