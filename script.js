@@ -171,14 +171,14 @@ const projects = [
     categoryLabel: 'Developer package · open source',
     role: 'Builder · TypeScript / JavaScript',
     accent: '#3e7d8c',
-    url: 'https://github.com/Omkar-Sonawane-23/routemap',
+    url: 'https://www.npmjs.com/package/@omkar-sonawane-05/routemap',
     repo: 'https://github.com/Omkar-Sonawane-23/routemap',
     description: 'A static-analysis compiler that helps developers understand Express applications in seconds.',
-    details: 'RouteMap resolves the request lifecycle across route, middleware, controller, service, repository, and database layers. It produces queryable metadata, documentation, OpenAPI, Postman collections, dependency graphs, and coverage reporting without runtime instrumentation. Distributed as the @routemap/cli package.',
+    details: 'RouteMap resolves the request lifecycle across route, middleware, controller, service, repository, and database layers. It produces queryable metadata, documentation, OpenAPI, Postman collections, dependency graphs, and coverage reporting without runtime instrumentation. Published on npm as @omkar-sonawane-05/routemap.',
     tags: ['TypeScript', 'Express', 'Static analysis', 'OpenAPI'],
     facts: [
       ['Role', 'Independent builder'],
-      ['Package', '@routemap/cli'],
+      ['Package', '@omkar-sonawane-05/routemap'],
       ['Output', 'Docs, OpenAPI, Postman, graphs, metadata'],
     ],
   },
@@ -280,7 +280,7 @@ function openProject(id) {
   document.querySelector('#modalTags').innerHTML = project.tags.map((tag) => `<span class="tag">${tag}</span>`).join('');
   const link = document.querySelector('#modalLink');
   link.href = project.url;
-  link.textContent = project.url.includes('github.com') ? 'Open repository ↗' : 'Visit live ↗';
+  link.textContent = project.url.includes('npmjs.com') ? 'View on npm ↗' : project.url.includes('github.com') ? 'Open repository ↗' : 'Visit live ↗';
   const repoLink = document.querySelector('#modalRepo');
   if (project.repo && project.repo !== project.url) {
     repoLink.href = project.repo;
