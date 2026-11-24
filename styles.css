@@ -349,4 +349,5 @@ html[data-theme="dark"] .filter-button.is-active { border-color: var(--accent); 
   .orbit-one { width: 290px; height: 170px; }
   .orbit-two { width: 230px; height: 230px; }
   .orbit-three { width: 320px; height: 320px; }
+  .contact-email { max-width: 100%; gap: 8px; font-size: 14px; overflow-wrap: anywhere; }
 }
