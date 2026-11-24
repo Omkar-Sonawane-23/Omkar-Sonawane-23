@@ -313,7 +313,9 @@ html[data-theme="dark"] .filter-button.is-active { border-color: var(--accent); 
   .hero-lead { font-size: 16px; }
   .hero-actions { align-items: stretch; flex-direction: column; max-width: 230px; }
   .hero-meta { gap: 13px; margin-top: 38px; font-size: 9px; }
-  .hero-art { min-height: 340px; transform: scale(.75); margin: -35px -70px; }
+  .hero-art { min-height: 340px; transform: scale(.72); margin: -30px 0; }
+  .label-left { left: 26px; }
+  .label-right { right: 20px; }
   .signal-inner { min-height: 70px; flex-wrap: wrap; align-content: center; gap: 8px 11px; }
   .signal-line { display: none; }
   .signal-separator { display: none; }
