@@ -344,6 +344,7 @@ html[data-theme="dark"] .filter-button.is-active { border-color: var(--accent); 
 }
 
 @media (max-width: 640px) {
+  .hero::before { left: 0; width: 100%; }
   .hero-art { max-width: 100%; overflow: hidden; }
   .orbit-one { width: 290px; height: 170px; }
   .orbit-two { width: 230px; height: 230px; }
