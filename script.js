@@ -195,7 +195,7 @@ const projects = [
     details: 'Worked as a Software Engineer on initiatives spanning development, implementation, and delivery, applying modern web technologies and software-development best practices.',
     tags: ['Software engineering', 'Web development', 'Delivery'],
     facts: [
-      ['Period', 'Jul 2024 — Mar 2025'],
+      ['Period', 'Jul 2024 – Present'],
       ['Focus', 'Client-facing software initiatives'],
       ['Mode', 'Remote'],
     ],
@@ -204,7 +204,7 @@ const projects = [
 
 const experience = [
   { date: 'Current', role: 'Product Builder', company: 'Mezora + new launches', type: 'Founder-led', description: 'Building and launching real-world products, starting with a restaurant operations system built from scratch.' },
-  { date: 'Jul 2024 — Mar 2025', role: 'Software Engineer', company: 'Quibits IT Solutions', type: 'Professional', description: 'Contributed across software development, implementation, and delivery for client-facing digital solutions.' },
+  { date: 'Jul 2024 – Present', role: 'Software Engineer', company: 'Quibits IT Solutions', type: 'Professional', description: 'Contributed across software development, implementation, and delivery for client-facing digital solutions.' },
   { date: 'Feb 2023 — Dec 2024', role: 'Technical Team Member', company: 'Ad Astra Official', type: 'Community', description: 'Contributed software-development and cybersecurity expertise to technical projects and initiatives.' },
   { date: 'May 2023 — Aug 2023', role: 'Contributor', company: 'GirlScript Summer of Code', type: 'Open source', description: 'Collaborated with developers to improve open-source project code and features.' },
   { date: 'Mar 2022 — Present', role: 'Professional Freelancer', company: 'Self-employed', type: 'Independent', description: 'Delivered web applications, vulnerability assessments, and cybersecurity solutions for client requirements.' },
