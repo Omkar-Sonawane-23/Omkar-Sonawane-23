@@ -1,14 +1,14 @@
 const projects = [
   {
     id: 'restoqr',
-    name: 'RestoQR',
+    name: 'Mezora',
     category: 'production',
     categoryLabel: 'Production / founder-led',
     role: 'Solo Founder · Full-Stack Product Builder',
     accent: '#7ce8dc',
-    url: 'https://restoqr.vercel.app/',
+    url: 'https://mezora.quibits.in/',
     description: 'A restaurant operating system built from scratch for Indian restaurants.',
-    details: 'RestoQR connects the guest, kitchen, counter, stock, and owner in one operational flow. Guests scan a table QR, orders reach the kitchen in real time, the counter settles the bill, and the system carries the data into inventory, GST-ready billing, and reports.',
+    details: 'Mezora connects the guest, kitchen, counter, stock, and owner in one operational flow. Guests scan a table QR, orders reach the kitchen in real time, the counter settles the bill, and the system carries the data into inventory, GST-ready billing, and reports.',
     tags: ['QR ordering', 'Kitchen display', 'POS', 'GST billing'],
     facts: [
       ['Role', 'Solo founder — built from scratch'],
@@ -121,7 +121,7 @@ const projects = [
 ];
 
 const experience = [
-  { date: 'Current', role: 'Product Builder', company: 'RestoQR + new launches', type: 'Founder-led', description: 'Building and launching real-world products, starting with a restaurant operations system built from scratch.' },
+  { date: 'Current', role: 'Product Builder', company: 'Mezora + new launches', type: 'Founder-led', description: 'Building and launching real-world products, starting with a restaurant operations system built from scratch.' },
   { date: 'Jul 2024 — Mar 2025', role: 'Software Engineer', company: 'Quibits IT Solutions', type: 'Professional', description: 'Contributed across software development, implementation, and delivery for client-facing digital solutions.' },
   { date: 'Feb 2023 — Dec 2024', role: 'Technical Team Member', company: 'Ad Astra Official', type: 'Community', description: 'Contributed software-development and cybersecurity expertise to technical projects and initiatives.' },
   { date: 'May 2023 — Aug 2023', role: 'Contributor', company: 'GirlScript Summer of Code', type: 'Open source', description: 'Collaborated with developers to improve open-source project code and features.' },
@@ -130,7 +130,7 @@ const experience = [
 
 const commands = [
   { icon: '↘', name: 'Jump to selected work', hint: 'See production systems and builds', action: () => scrollToId('work') },
-  { icon: '✦', name: 'Meet RestoQR', hint: 'Open the founder-led product', action: () => openProject('restoqr') },
+  { icon: '✦', name: 'Meet Mezora', hint: 'Open the founder-led product', action: () => openProject('restoqr') },
   { icon: '◎', name: 'Toggle theme', hint: 'Switch between dark and light', action: () => toggleTheme() },
   { icon: '✉', name: 'Copy email', hint: 'sonawaneomkar2306@gmail.com', action: () => copyEmail() },
   { icon: '↗', name: 'Open GitHub', hint: 'github.com/Omkar-Sonawane-23', action: () => window.open('https://github.com/Omkar-Sonawane-23', '_blank', 'noopener') },
