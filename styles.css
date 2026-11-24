@@ -342,3 +342,10 @@ html[data-theme="dark"] .filter-button.is-active { border-color: var(--accent); 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .001ms !important; }
 }
+
+@media (max-width: 640px) {
+  .hero-art { max-width: 100%; overflow: hidden; }
+  .orbit-one { width: 290px; height: 170px; }
+  .orbit-two { width: 230px; height: 230px; }
+  .orbit-three { width: 320px; height: 320px; }
+}
