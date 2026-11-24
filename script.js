@@ -12,6 +12,7 @@ const projects = [
     details: 'Contributed to the overall establishment of the platform and worked primarily on backend development. The system supports employee transportation operations through organization, driver, vendor, route, tracking, analytics, and SOS workflows.',
     tags: ['MERN', 'Backend systems', 'Live tracking', 'Logistics'],
     facts: [
+      ['Timeline', 'Mar 2024 – Mar 2025'],
       ['Role', 'Founding member — backend-focused'],
       ['Stack', 'MongoDB, Express, React, Node.js'],
       ['Domain', 'Employee transportation and operations'],
@@ -30,6 +31,7 @@ const projects = [
     details: 'Contributed to the overall establishment of Mend and worked primarily on the backend. The platform connects premium hospitality venues with a verified workforce through ratings, professional history, shift workflows, and an identity layer.',
     tags: ['MERN', 'Platform backend', 'Workforce', 'Professional identity'],
     facts: [
+      ['Timeline', 'Apr 2026 – Aug 2026'],
       ['Role', 'Founding member — backend-focused'],
       ['Stack', 'MongoDB, Express, React, Node.js'],
       ['Domain', 'Hospitality workforce and service operations'],
@@ -48,6 +50,7 @@ const projects = [
     details: 'GarudX scans uploaded source archives across 36 languages with three engines — per-language static analysis, OSV-based dependency scanning, and secret detection combining GitLeaks signatures with a contextual engine. Findings map to CWE and OWASP with file, line, and fix guidance, and scans produce audit-ready PDF and Excel reports. Self-hosted: deployed and operated on my own server, with no code leaving the premises.',
     tags: ['SAST', 'Security scanning', 'Self-hosted', 'Docker'],
     facts: [
+      ['Timeline', 'Jul 2026 – Oct 2026'],
       ['Role', 'Founding member — full-stack'],
       ['Engines', 'Static analysis, dependencies, secrets'],
       ['Deployment', 'Self-hosted on own infrastructure'],
