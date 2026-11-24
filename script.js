@@ -122,7 +122,7 @@ const projects = [
     facts: [
       ['Role', 'Independent builder'],
       ['Focus', 'Content systems and API-backed UX'],
-      ['GitHub', '21 stars · 39 forks'],
+      ['GitHub', '21 stars · 39 forks · 19 contributors'],
     ],
   },
   {
