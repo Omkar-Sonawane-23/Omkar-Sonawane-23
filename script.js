@@ -1,24 +1,5 @@
 const projects = [
   {
-    id: 'vrs',
-    name: 'VRS Translink',
-    category: 'realworld',
-    categoryLabel: 'Real-world project',
-    role: 'Founding Member · Backend Developer',
-    accent: '#7b68c8',
-    url: 'http://vrstranslink.com/',
-    repo: null,
-    description: 'Employee transportation software for organizations, drivers, vendors, and daily commutes.',
-    details: 'Contributed to the overall establishment of the platform and worked primarily on backend development. The system supports employee transportation operations through organization, driver, vendor, route, tracking, analytics, and SOS workflows.',
-    tags: ['MERN', 'Backend systems', 'Live tracking', 'Logistics'],
-    facts: [
-      ['Timeline', 'Mar 2024 – Mar 2025'],
-      ['Role', 'Founding member — backend-focused'],
-      ['Stack', 'MongoDB, Express, React, Node.js'],
-      ['Domain', 'Employee transportation and operations'],
-    ],
-  },
-  {
     id: 'mend',
     name: 'Mend Hospitality',
     category: 'realworld',
@@ -204,9 +185,7 @@ const projects = [
 
 const experience = [
   { date: 'Current', role: 'Product Builder', company: 'Mezora + new launches', type: 'Founder-led', description: 'Building and launching real-world products, starting with a restaurant operations system built from scratch.' },
-  { date: 'Jul 2024 – Present', role: 'Software Engineer', company: 'Quibits IT Solutions', type: 'Professional', description: 'Contributed across software development, implementation, and delivery for client-facing digital solutions.' },
-  { date: 'Feb 2023 — Dec 2024', role: 'Technical Team Member', company: 'Ad Astra Official', type: 'Community', description: 'Contributed software-development and cybersecurity expertise to technical projects and initiatives.' },
-  { date: 'May 2023 — Aug 2023', role: 'Contributor', company: 'GirlScript Summer of Code', type: 'Open source', description: 'Collaborated with developers to improve open-source project code and features.' },
+  { date: 'Apr 2024 – Mar 2025', role: 'Software Engineer Intern', company: 'VRS Translink', type: 'Professional', description: 'Worked on backend development for employee transportation software serving organizations, drivers, vendors, and daily commutes.' },
   { date: 'Mar 2022 — Present', role: 'Professional Freelancer', company: 'Self-employed', type: 'Independent', description: 'Delivered web applications, vulnerability assessments, and cybersecurity solutions for client requirements.' },
 ];
 
